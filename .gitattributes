@@ -1,0 +1,8 @@
+# Normalize line endings of text files in the repository
+* text=auto
+
+# Never let git touch the bytes of binary files
+*.mat binary
+*.fig binary
+*.png binary
+*.pdf binary

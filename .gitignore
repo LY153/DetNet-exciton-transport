@@ -1,0 +1,18 @@
+# MATLAB editor autosave and backups
+*.asv
+*.m~
+
+# MATLAB build cache
+slprj/
+
+# Simulation outputs written at runtime
+sim_*.mat
+state_m*_x*.mat
+eta_results_*
+*_summary.csv
+*_details.csv
+
+# OS junk
+Thumbs.db
+.DS_Store
+desktop.ini
