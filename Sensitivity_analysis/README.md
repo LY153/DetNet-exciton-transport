@@ -21,8 +21,7 @@ DeterminedNet
   built; `Rate_t_LMR` computes the required entries on the fly.
 - **A4** The bath rate and pure-dephasing rate are evaluated only at the
   final time RT instead of over the full 1000-point time grid.
-- **B1** The independent trajectories (one per initial site) are run in
-  parallel with `parfor` inside `DetNetcalculation`; `DeterminedNet` now
+- **B1** One ensemble per initial site, run in parallel with `parfor` inside `DetNetcalculation`; `DeterminedNet` now
   loops over the (m, x) combinations serially.
 - **C1** The per-step site-population time series are no longer recorded to
   disk. `DetNetcalculation` now returns only the efficiencies (one per

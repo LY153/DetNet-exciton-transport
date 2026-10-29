@@ -48,7 +48,7 @@ Outputs:
 - `Sensitivity_analysis/`: efficiency results saved to the current folder
   as `eta_results_*.mat` plus `*_summary.csv` and `*_details.csv`.
 
-A run with the full parameter set (T_max up to 1e7 steps, one trajectory
-per initial site) takes hours per (m, x) combination; reduce `T_max` for a
+A run with the full parameter set (T_max up to 1e7 steps, one ensemble of
+about 1e4 trajectories per initial site) takes hours per (m, x) combination; reduce `T_max` for a
 quick test. The diagnostic scripts in `Improved_version/`
 (`run_cutoff_compare.m`, `CompareCutoffVsJc.m`) run in seconds to minutes.
